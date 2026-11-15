@@ -1,3 +1,4 @@
+#pragma once
 #include <Arduino.h>
 
 const uint16_t PROGMEM gblogo_color [] = {

@@ -12,5 +12,7 @@ inline const Ghost smallpumpkinright {
     "Ghastly gourd.\nThis pumpkin might\nbe chunkin' YOU.",
     9,
     2,
-    5
+    5,
+    {{0xE2, 0x00, 0x47, 0x05, 0xB7, 0x00, 0x68, 0x21, 0x30, 0x06, 0x01, 0x14}},
+    1
 };

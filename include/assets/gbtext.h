@@ -1,3 +1,4 @@
+#pragma once
 #include <Arduino.h>
 
 const uint8_t PROGMEM gbtext [] = {

@@ -14,7 +14,7 @@ public:
 
             cfg.spi_host = SPI2_HOST;
             cfg.spi_mode = 0;
-            cfg.freq_write = 20000000;
+            cfg.freq_write = 40000000;
             cfg.freq_read = 16000000;
             cfg.spi_3wire = true;
             cfg.use_lock = true;
@@ -34,7 +34,7 @@ public:
             auto cfg = _panel.config();
 
             cfg.pin_cs   = 3;     // XIAO D1
-            cfg.pin_rst  = 5;     // XIAO D3
+            cfg.pin_rst  = -1;    // Unconnected
             cfg.pin_busy = -1;
 
             cfg.panel_width  = 320;

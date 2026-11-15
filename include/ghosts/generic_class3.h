@@ -12,5 +12,7 @@ inline const Ghost generic_class3 {
     "No identity.\nMay not purchase alcohol\nand reads emo poetry.",
     4,
     4,
-    3
+    3,
+    {{0xE2, 0x00, 0x47, 0x06, 0x6D, 0x30, 0x68, 0x21, 0x3B, 0x69, 0x01, 0x0F}},
+    1
 };

@@ -1,6 +1,9 @@
 #pragma once
 #include "ghosts/gblogo_mono_bmp.h"
 
+constexpr size_t EPC_LENGTH = 12;
+constexpr size_t MAX_TAGS_PER_GHOST = 5;
+
 /*
  * A ghost index entry.
  * @param bmp The bitmap of the ghost
@@ -25,4 +28,7 @@ struct Ghost {
   int energy        = 0;
   int charge        = 0;
   int stantz        = 9;
+
+  uint8_t tag_epcs[MAX_TAGS_PER_GHOST][EPC_LENGTH] = {};
+  uint8_t epc_count = 0;
 };

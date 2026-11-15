@@ -12,5 +12,7 @@ inline const Ghost smallpumpkinleft {
     "Funky fruit.\nAsk it real nice\nfor a spice latte.",
     8,
     4,
-    17
+    17,
+    {{0xE2, 0x00, 0x47, 0x07, 0x24, 0xD0, 0x68, 0x21, 0x46, 0xE3, 0x01, 0x08}},
+    1
 };
